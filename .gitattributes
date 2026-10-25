@@ -15,3 +15,16 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Keep portable KiCad source and authored documentation at stable LF endings.
+*.kicad_pro text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_dru text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+fp-lib-table text eol=lf
+sym-lib-table text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

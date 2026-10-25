@@ -69,3 +69,25 @@ Eurocard-HV-piezo-driver.oln
 Eurocard-HV-piezo-driver.smt
 Eurocard-HV-piezo-driver_ReplaceLibParts.scr
 Transcode Report.txt
+
+# KiCad derivative: local state, caches and automatic backups.
+# Curated BOM CSV/XML and release documents intentionally remain trackable.
+/hardware/kicad/*.kicad_prl
+/hardware/kicad/~*.lck
+/hardware/kicad/.history/
+/hardware/kicad/*-backups/
+/hardware/kicad/_autosave-*
+/hardware/kicad/*.kicad_pcb-bak
+/hardware/kicad/*.kicad_sch-bak
+/hardware/kicad/*.bak
+/hardware/kicad/fp-info-cache
+
+# Optional scratch/export folders; deliberate releases belong elsewhere.
+/hardware/kicad/generated/
+/hardware/kicad/gerbers/
+/hardware/kicad/plots/
+
+# Firmware build/cache directories (retain upstream firmware and source).
+/code/piezo/build/
+/code/piezo/.pioenvs/
+/code/piezo/.piolibdeps/

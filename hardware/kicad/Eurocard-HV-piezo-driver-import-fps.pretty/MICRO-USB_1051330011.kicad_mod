@@ -1,0 +1,267 @@
+(footprint "MICRO-USB_1051330011"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Package for 1051330011 Micro USB vertical connector")
+	(property "Reference" "REF**"
+		(at -3.8 4.4 0)
+		(layer "F.SilkS")
+		(uuid "3e0efb44-b643-4c00-bbe9-0edc99ba46f9")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "56aadfda-7246-4147-a8ba-5b2071f89741")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54f12807-92b5-4e6d-b39d-c8eb37baba46")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "987e98e6-5a55-4933-93f4-181fec3855c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.9 -0.8)
+		(end 3.9 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0003bdba-53f0-4710-ae82-8bcfae162687")
+	)
+	(fp_line
+		(start -3.9 2.5)
+		(end -3.9 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2baa9f-99e0-407d-bdbe-411429e41faa")
+	)
+	(fp_line
+		(start 3.9 -0.8)
+		(end 3.9 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79b1074b-a126-4d07-9a13-47b0d30f55aa")
+	)
+	(fp_line
+		(start 3.9 2.5)
+		(end -3.9 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb623e7c-38bc-4172-818d-4029744d7b5a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 0.35) (xy -1.1 0.35) (xy -1.1 -0.85) (xy -1.5 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "cdf5d2ad-5ad9-45df-a4d7-c8ba5270ec01")
+	)
+	(fp_poly
+		(pts
+			(xy -0.85 0.35) (xy -0.45 0.35) (xy -0.45 -0.85) (xy -0.85 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "29e26daf-78c3-4d1c-a0cd-d1eb9e43eb4f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2 0.35) (xy 0.2 0.35) (xy 0.2 -0.85) (xy -0.2 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d5011f24-5c38-46d2-a8f1-697cd56bf35b")
+	)
+	(fp_poly
+		(pts
+			(xy 0.45 0.35) (xy 0.85 0.35) (xy 0.85 -0.85) (xy 0.45 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "dc9488d5-ada1-4c1c-9010-66ad92d6b9cd")
+	)
+	(fp_poly
+		(pts
+			(xy 1.1 0.35) (xy 1.5 0.35) (xy 1.5 -0.85) (xy 1.1 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "822d6dd0-3463-4448-a63b-ce57da9e7e90")
+	)
+	(pad "1" smd rect
+		(at -1.3 -0.25 90)
+		(size 1.25 0.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "c5c883c2-7878-4ded-9389-b9ae7905e307")
+	)
+	(pad "2" smd rect
+		(at -0.65 -0.25 90)
+		(size 1.25 0.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b63f54c3-038e-44a1-8666-a1ea6c4d9a1c")
+	)
+	(pad "3" smd rect
+		(at 0 -0.25 90)
+		(size 1.25 0.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2109d83f-e5e0-4263-8a69-7376cdb5f377")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.25 90)
+		(size 1.25 0.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "55dc2292-f83b-4146-bd37-ba29d3590016")
+	)
+	(pad "5" smd rect
+		(at 1.3 -0.25 90)
+		(size 1.25 0.45)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2f82031a-f6af-4795-aef1-5e15c1eefefb")
+	)
+	(pad "P$1" thru_hole rect
+		(at 2.794 -0.254)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "f404eb7d-fe1c-4c5c-998b-1e2536da337e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.8 1.8)
+				(thermal_bridge_angle 0)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 1.8 1.8)
+				(thermal_bridge_angle 0)
+			)
+		)
+	)
+	(pad "P$2" thru_hole rect
+		(at -2.794 -0.254)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "6f8338da-32cc-4c77-8e52-1fa0231ca8f5")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.8 1.8)
+				(thermal_bridge_angle 0)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 1.8 1.8)
+				(thermal_bridge_angle 0)
+			)
+		)
+	)
+	(pad "P$3" thru_hole rect
+		(at 0 1.9304)
+		(size 1.4986 1.4986)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "1c07c3f2-f217-4255-89da-a4b9a227a1c4")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.7907 1.7907)
+				(thermal_bridge_angle 0)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 1.7907 1.7907)
+				(thermal_bridge_angle 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
