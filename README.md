@@ -28,10 +28,10 @@ Modified by Daniel Knapp with Codex assistance. Hardware documentation,
 including the modified editable CAD, remains under [CERN OHL v1.2](LICENSE).
 Retain upstream attribution and the separate firmware/library licence notices.
 
-**Derivative public documentation URL: pending publication.** The board's
-current link identifies the upstream design only. Once the derivative's
-GitHub URL is established, update this notice and the board link/QR code
-together in a separate commit. The original upstream notice is retained below.
+**Derivative public Documentation Location:**
+[github.com/dyknapp/-ion-optics-hv](https://github.com/dyknapp/-ion-optics-hv).
+The board's source link and QR code point to this repository. The original
+upstream attribution and project notice are retained below.
 
 **Signed: Codex (OpenAI), 2026-10-25.** This signature covers the derivative
 notice above; the original project README below retains its upstream authorship.

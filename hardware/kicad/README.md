@@ -6,7 +6,7 @@ PCB. Its original filename is retained for schematic hierarchy and provenance.
 This directory is the working source for the derivative; the Eagle files at
 the repository root document the original design.
 
-The project-local symbol library, `.pretty` footprint library, `sym-lib-table`
+The project-local symbol library, `.pretty` footprint libraries, `sym-lib-table`
 and `fp-lib-table` must travel with the CAD files. Both library tables use
 `${KIPRJMOD}` paths. Install KiCad's standard symbol/footprint libraries as well;
 several replacement footprints use them. No Eagle installation is required.
@@ -99,9 +99,22 @@ The inherited front-panel design still includes the original interface and
 needs updating for the LCD-free instrument. The board's "PROTOTYPE - REV A"
 marking is not evidence of bench validation.
 
+## Board documentation link
+
+The printed source link and QR1 both point to
+[github.com/dyknapp/-ion-optics-hv](https://github.com/dyknapp/-ion-optics-hv).
+QR1 is board-only artwork from `IonOptics.pretty/QR_Documentation.kicad_mod`,
+excluded from the assembly BOM and placement files. It adds no pads or copper.
+
+The QR code uses error correction Q, 33 x 33 modules at 0.45 mm pitch, and a
+four-module quiet border: 18.45 mm square overall. Its centre is X151.225,
+Y143.825 mm. Light silkscreen prints the background/quiet zone; darker solder
+mask forms the code modules. Preserve the quiet zone and existing via tenting
+beneath it. A solder-mask-subtracted silkscreen plot was decoded successfully
+to the exact URL at three image resolutions before this commit.
+
 Hardware documentation is licensed under [CERN OHL v1.2](../../LICENSE).
-Derivative documentation URL: pending publication; update the root README
-notice and board QR/link when the GitHub origin is established.
+The derivative's public Documentation Location is the repository URL above.
 
 **Signed: Codex (OpenAI), 2026-10-25.** Prepared for Daniel Knapp from the
 reviewed schematic, PCB and modification records.

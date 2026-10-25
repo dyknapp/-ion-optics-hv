@@ -108,11 +108,12 @@ so the monitor alone does not independently verify output sign.
   J2/J4 patch rows and MCU debug pins. Relocated R95/JP6 labels. Marked the
   derivative "ION OPTICS HV / PROTOTYPE - REV A", retained JQI attribution,
   and replaced the obsolete QR graphic with an explicit upstream URL.
-  A derivative-specific URL/QR is deferred until its GitHub location exists.
+  The derivative-specific URL/QR was deferred in the initial baseline and
+  added in the follow-up recorded below.
 
 ## Validation baseline and limits
 
-The reviewed design has 170 schematic components, 171 PCB footprints
+The initial derivative baseline has 170 schematic components, 171 PCB footprints
 (including the retained board-only JQI artwork), 185 schematic nets and
 607 PCB pads. The preceding connectivity review found matching multi-pin
 schematic/PCB net memberships and no unconnected PCB items.
@@ -162,6 +163,27 @@ The original front-panel files also remain unchanged and need new interface
 cutouts. Before a fabrication release, review the remaining rule findings,
 qualify unresolved parts and record the exact CAD, BOM and firmware revisions.
 
+## Repository link and QR update - 2026-10-25
+
+- Published Documentation Location:
+  [github.com/dyknapp/-ion-optics-hv](https://github.com/dyknapp/-ion-optics-hv).
+  The repository's default branch is `ion-optics`.
+- Replaced the bottom source-link text with this derivative URL, preserving
+  the "Based on JQI v1.2" attribution and JQI logo.
+- Added QR1 from a new project-local `IonOptics.pretty` artwork library.
+  It encodes the exact HTTPS URL, with Q error correction, 33 x 33 modules
+  at 0.45 mm pitch, and a four-module quiet border (18.45 mm overall).
+  Light silkscreen prints the background over darker solder mask.
+- Placed the code below the exposed RF-shield rim. Preserved the existing
+  tenting of the vias under it; no copper or solder-mask geometry changed.
+  This is zero-pad, board-only artwork, excluded from BOM/placement outputs.
+- Decoded the actual solder-mask-subtracted silkscreen plot at three image
+  resolutions; all returned the exact derivative URL.
+- DRC remains 557 with 137 existing schematic-parity findings and zero
+  unconnected items. The new code and source label have no DRC findings.
+  Schematic components and PCB pads are unchanged; PCB footprint count is
+  now 172 because the new artwork adds one footprint.
+
 ## Licence, publication and authorship
 
 The original [CERN OHL v1.2 licence](../LICENSE) and upstream attribution are
@@ -169,11 +191,10 @@ retained. Modified hardware documentation is provided under the same licence.
 The hardware licence does not automatically extend to firmware; preserve the
 existing software and bundled-library notices separately.
 
-Derivative public Documentation Location: **pending publication**. The editable
-sources are in this repository's `hardware/kicad/` directory. Once the GitHub
-origin is established, add the actual public documentation URL to the root
-README and this notice, and update the board link/QR in the same follow-up
-commit. The current upstream link is an attribution link, not the location of
-the derivative's sources.
+Derivative public Documentation Location:
+[https://github.com/dyknapp/-ion-optics-hv](https://github.com/dyknapp/-ion-optics-hv).
+The editable sources are in this repository's `hardware/kicad/` directory.
+The board source link and QR code identify this location; the original upstream
+link remains in the repository's attribution and original documentation.
 
 **Signed: Codex (OpenAI), 2026-10-25.** Authorship signature for this document.
